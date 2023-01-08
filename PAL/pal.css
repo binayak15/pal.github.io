@@ -1,0 +1,108 @@
+body, html {
+    height: 90%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("IMG-20221104-WA0014.jpg");
+  
+    /* Full height */
+    height: 110%; 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(147, 249, 69);
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+  }
+
+.pic1{
+    width: 500px;  
+text-align: center; 
+}
+.pic2{
+    width: 500px;  
+text-align: center;  
+padding: 15px;  
+border: 3px solid rgb(242, 166, 166);  
+max-width: 100%;  
+height: 500px;
+}
+.header{
+    border: 3px solid rgb(242, 166, 166);  
+    background-image:url('happybday.png');
+    background-size: 400px 150px;
+    background-position-x: center;
+    
+    width: 1350px;  
+text-align: center;  
+padding: 15px;  
+border: 3px solid rgb(242, 166, 166);  
+max-width: 100%;  
+height: 150px;
+}
+.fst{
+    width: 1405px;  
+    text-align: center;  
+    padding: 1px;  
+    border: 3px solid rgb(242, 166, 166);  
+  
+    height: 140px;
+    font-family: "Sofia", sans-serif;
+    background-color: bisque;
+    
+}
+h1.fst{
+    text-align: center;  
+    font-family: "Sofia", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin: 100px;
+    padding: 110px;
+
+}
+p.fst{
+    text-align: center;  
+    font-family: "Sofia", sans-serif;
+    margin-bottom: 30px;
+    font-size: large;
+}
+.side{
+    border-radius: 10px;
+}
+.snd{
+    font-size: 25x;
+    border-radius: 12px;
+    border-color: rgb(125, 65, 255);
+    background-color: rgb(135, 137, 249); /* Fallback color */
+    background-color: rgba(243, 64, 64, 0.4); /* Black w/opacity/see-through */
+    color: rgb(0, 0, 0);
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    
+}
